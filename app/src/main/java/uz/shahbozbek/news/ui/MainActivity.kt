@@ -1,9 +1,10 @@
-package uz.shahbozbek.news
+package uz.shahbozbek.news.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
+import uz.shahbozbek.news.R
 import uz.shahbozbek.news.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -18,4 +19,7 @@ class MainActivity : AppCompatActivity() {
         val navHostFragment =supportFragmentManager.findFragmentById(R.id.fragmentContainerView) as NavHostFragment
         binding.bottomAppBar.setupWithNavController(navHostFragment.navController)
     }
+
+
+
 }

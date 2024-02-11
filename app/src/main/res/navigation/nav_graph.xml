@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/breakingNewsFragment"
-        android:name="uz.shahbozbek.news.fragment.BreakingNewsFragment"
+        android:name="uz.shahbozbek.news.ui.fragment.BreakingNewsFragment"
         android:label="fragment_breaking_news"
         tools:layout="@layout/fragment_breaking_news" />
     <fragment
         android:id="@+id/searchNewsFragment"
-        android:name="uz.shahbozbek.news.fragment.SearchNewsFragment"
+        android:name="uz.shahbozbek.news.ui.fragment.SearchNewsFragment"
         android:label="fragment_search_news"
         tools:layout="@layout/fragment_search_news" />
     <fragment
         android:id="@+id/savedNewsFragment"
-        android:name="uz.shahbozbek.news.fragment.SavedNewsFragment"
+        android:name="uz.shahbozbek.news.ui.fragment.SavedNewsFragment"
         android:label="fragment_saved_news"
         tools:layout="@layout/fragment_saved_news" />
 </navigation>

@@ -1,4 +1,4 @@
-package uz.shahbozbek.news.fragment
+package uz.shahbozbek.news.ui.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
